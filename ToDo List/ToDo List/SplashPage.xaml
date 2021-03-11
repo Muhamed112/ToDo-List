@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo_List.SplashPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="mobilebg.png">
+
+    <ContentPage.Content>
+        <StackLayout x:Name="Main">
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Image Source="todo" WidthRequest="{OnPlatform iOS=150, Android=150}" Margin="0,0,0,-20"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="To" TextColor="White" FontSize="30" FontFamily="Raleway-Medium"/>
+                    <Label Text="Do" TextColor="White" FontSize="30" FontFamily="Raleway-Bold" Margin="-5,0,0,0" Padding="0"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand" Margin="0,0,0,120">
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65"/>
+                        <RowDefinition Height="65"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="Login_button" WidthRequest="300" HorizontalOptions="Center" Text="Login" 
+                            TextColor="White" FontFamily="Raleway-Bold"
+                            CornerRadius="25" Clicked="LoginButton" 
+                            Margin="0,0,0,15" BackgroundColor="#00ffffff"
+                            BorderColor="White" BorderWidth="1"
+                                Grid.Column="0" Grid.Row="1"/>
+
+                    <Button x:Name="Signup_button" Text="Sign up" TextColor="white" WidthRequest="300" HorizontalOptions="Center"
+                            BackgroundColor="#fe00d4" FontFamily="Raleway-Bold" 
+                            CornerRadius="25" Clicked="SignupButton"
+                                Grid.Column="0" Grid.Row="2">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="1,0">
+                                <GradientStop Color="#cb16d4" Offset="0.1" />
+                                <GradientStop Color="#fe00d4" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

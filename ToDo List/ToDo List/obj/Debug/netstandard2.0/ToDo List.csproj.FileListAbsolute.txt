@@ -1,0 +1,63 @@
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.deps.json
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ref\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.pdb
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.csprojAssemblyReference.cache
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\AddTask.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\SignupPage.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\SplashPage.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\AllSchedules.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\GroceryList.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\PersonalErrands.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\SchoolProjects.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\WorkProjects.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDoList.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.AssemblyInfoInputs.cache
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.AssemblyInfo.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.csproj.CoreCompileInputs.cache
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ref\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.pdb
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.deps.json
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.dll
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ref\ToDo List.dll
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.pdb
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\AddTask.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\SignupPage.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\SplashPage.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\AllSchedules.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\Template.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDoList.xaml.g.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.AssemblyInfoInputs.cache
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.AssemblyInfo.cs
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.csproj.CoreCompileInputs.cache
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.dll
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ref\ToDo List.dll
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.pdb
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.deps.json
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ref\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\bin\Debug\netstandard2.0\ToDo List.pdb
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.csprojAssemblyReference.cache
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\AddTask.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\SignupPage.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\SplashPage.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\AllSchedules.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo Lists\Template.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDoList.xaml.g.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.AssemblyInfoInputs.cache
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.AssemblyInfo.cs
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.csproj.CoreCompileInputs.cache
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ref\ToDo List.dll
+C:\Users\Jahij\source\repos\ToDo List\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.pdb
+C:\Users\Muhamed\Desktop\ToDo List\ToDo List\ToDo List\obj\Debug\netstandard2.0\ToDo List.csprojAssemblyReference.cache

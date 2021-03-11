@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo_List.ToDoList"
+             NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
+        <StackLayout x:Name="Main">
+            <Frame HeightRequest="280" CornerRadius="0">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Color="#0057cc" Offset="0.1" />
+                        <GradientStop Color="#00c0f9" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <StackLayout x:Name="Hello" Margin="25,20,0,0">
+                    <Label Text="Hello" TextColor="WhiteSmoke" FontSize="55" FontFamily="Raleway-ExtraLight"/>
+                    <Label x:Name="Username" Text="Username" TextColor="WhiteSmoke" FontSize="55" 
+                           FontFamily="Raleway-ExtraLight" Margin="0,-20,0,0"/>
+                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                        <Label x:Name="Dan" Text="Sunday," TextColor="WhiteSmoke" 
+                               FontSize="18" FontFamily="Raleway-SemiBold"/>
+
+                        <Label x:Name="Datum" Text="12th January" TextColor="WhiteSmoke" 
+                               FontSize="18" FontFamily="Raleway-Light"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#401b02a3" Margin="0,-81,0,0" HeightRequest="35" HasShadow="False" CornerRadius="0">
+                <Grid Padding="0" Margin="-20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" 
+                             VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-7,0,0">
+                        <Label x:Name="numCreated" Text="57" Margin="0,0,5,0" TextColor="#90ffffff" FontSize="20" FontFamily="Raleway-SemiBold"/>
+                        <StackLayout>
+                            <Label Text="Created" TextColor="#90ffffff" FontSize="16" FontFamily="Raleway-Medium"/>
+                            <Label Text="Tasks" Margin="0,-10,0,0" TextColor="#90ffffff" FontSize="16" FontFamily="Raleway-Medium"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1" 
+                             VerticalOptions="Center" HorizontalOptions="Center" Margin="-25,-7,0,0">
+                        <Label x:Name="numCompleted" Text="34" Margin="0,0,5,0" TextColor="#90ffffff" FontSize="20" FontFamily="Raleway-SemiBold"/>
+                        <StackLayout>
+                            <Label Text="Completed" TextColor="#90ffffff" FontSize="16" FontFamily="Raleway-Medium"/>
+                            <Label Text="Tasks" Margin="0,-10,0,0" TextColor="#90ffffff" FontSize="16" FontFamily="Raleway-Medium"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+
+            <StackLayout BackgroundColor="WhiteSmoke" VerticalOptions="FillAndExpand" Margin="0,-6,0,0">
+
+                <Grid Padding="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="150"/>
+                    </Grid.RowDefinitions>
+
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" 
+                                 VerticalOptions="Center" HorizontalOptions="Center">
+                        <StackLayout Padding="0,5,0,0">
+                            <Image Source="allsch" WidthRequest="{OnPlatform iOS=40, Android=40}"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="All &#10;Schedule" FontSize="18" FontFamily="Raleway-Medium"/>
+                            <Label x:Name="allTasksNum" Text="57 Tasks" FontSize="14" TextColor="#60000000" Margin="0,-5,0,0"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="AllSchedule_Tapped"  NumberOfTapsRequired="1">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1" 
+                                 VerticalOptions="Center" HorizontalOptions="Center" Margin="-25,0,0,0">
+                        <StackLayout Padding="0,5,0,0">
+                            <Image Source="user" WidthRequest="{OnPlatform iOS=40, Android=40}"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="Personal &#10;Errands" FontSize="18" FontFamily="Raleway-Medium"/>
+                            <Label x:Name="personalTasksNum" Text="7 Tasks" FontSize="14" TextColor="#60000000" Margin="0,-5,0,0"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PersonalErrands_Tapped"  NumberOfTapsRequired="1">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" 
+                                 VerticalOptions="Center" HorizontalOptions="Center">
+                        <StackLayout Padding="0,5,0,0">
+                            <Image Source="work" WidthRequest="{OnPlatform iOS=40, Android=40}"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="Work &#10;Projects" FontSize="18" FontFamily="Raleway-Medium"/>
+                            <Label x:Name="workTasksNum" Text="5 Tasks" FontSize="14" TextColor="#60000000" Margin="0,-5,0,0"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="WorkProjects_Tapped"  NumberOfTapsRequired="1">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1" 
+                                 VerticalOptions="Center" HorizontalOptions="Center" Margin="-25,0,0,0">
+                        <StackLayout Padding="0,5,0,0">
+                            <Image Source="grocery" WidthRequest="{OnPlatform iOS=40, Android=40}"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="Grocery &#10;List" FontSize="18" FontFamily="Raleway-Medium"/>
+                            <Label x:Name="groceryTasksNum" Text="0 Tasks" FontSize="14"
+                                   TextColor="#60000000" Margin="0,-5,0,0"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GroceryList_Tapped"  NumberOfTapsRequired="1">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" 
+                                 VerticalOptions="Center" HorizontalOptions="Center">
+                        <StackLayout Padding="0,5,0,0">
+                            <Image Source="school" WidthRequest="{OnPlatform iOS=40, Android=40}"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="School &#10;Projects" FontSize="18" FontFamily="Raleway-Medium"/>
+                            <Label x:Name="schoolTasksNum" Text="0 Tasks" FontSize="14" TextColor="#60000000" Margin="0,-5,0,0"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="SchoolProjects_Tapped" NumberOfTapsRequired="1">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

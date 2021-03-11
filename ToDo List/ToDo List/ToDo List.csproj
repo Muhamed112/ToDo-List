@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\font\Raleway-Black.ttf" />
+    <None Remove="Resources\font\Raleway-Bold.ttf" />
+    <None Remove="Resources\font\Raleway-ExtraBold.ttf" />
+    <None Remove="Resources\font\Raleway-ExtraLight.ttf" />
+    <None Remove="Resources\font\Raleway-Light.ttf" />
+    <None Remove="Resources\font\Raleway-Medium.ttf" />
+    <None Remove="Resources\font\Raleway-Regular.ttf" />
+    <None Remove="Resources\font\Raleway-SemiBold.ttf" />
+    <None Remove="Resources\font\Raleway-Thin.ttf" />
+    <None Remove="Resources\icons\mobilebg.png" />
+    <None Remove="Resources\icons\todo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\font\Raleway-Black.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-Bold.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-ExtraBold.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-ExtraLight.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-Light.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-Medium.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-Regular.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-SemiBold.ttf" />
+    <EmbeddedResource Include="Resources\font\Raleway-Thin.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\icons\mobilebg.png" />
+    <Resource Include="Resources\icons\todo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AddTask.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ToDo Lists\Template.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ToDo Lists\AllSchedules.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SignupPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SplashPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ToDoList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo_List.AddTask"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <Frame VerticalOptions="FillAndExpand" CornerRadius="0">
+            <Frame.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#0057cc" Offset="0.1" />
+                    <GradientStop Color="#00c0f9" Offset="1.0" />
+                </LinearGradientBrush>
+            </Frame.Background>
+            <StackLayout Padding="0">
+
+                <Grid HorizontalOptions="Fill" Margin="0,0,0,30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="25"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                    </Grid.RowDefinitions>
+
+                    <ImageButton Source="arrow" BackgroundColor="#00ffffff" WidthRequest="{OnPlatform iOS=20, Android=20}"
+                                 Clicked="BackImage_Clicked" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start"/>
+                    <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="Center">
+                        <Label Text="Add new task" TextColor="WhiteSmoke" FontFamily="Raleway-SemiBold"
+                                FontSize="22"/>
+                    </StackLayout>
+                </Grid>
+
+                <StackLayout Margin="10,0,0,0">
+                    <Picker x:Name="taskGroup" Title="Select mode" TitleColor="WhiteSmoke" 
+                            FontFamily="Raleway-Regular" TextColor="WhiteSmoke" FontSize="19" Margin="-5,0,0,0"/>
+                    <BoxView WidthRequest="500" HorizontalOptions="Center" BackgroundColor="LightGray" HeightRequest="2">
+                        
+                    </BoxView>
+
+                    <Entry x:Name="taskName" Placeholder="Task Name" PlaceholderColor="LightGray" 
+                       TextColor="WhiteSmoke" FontFamily="Raleway-Regular" Margin="-15,15,0,0" FontSize="19"/>
+                    <BoxView WidthRequest="500" HorizontalOptions="Center" BackgroundColor="LightGray" HeightRequest="2">
+                        
+                    </BoxView>
+
+                    <DatePicker x:Name="taskDate" FontFamily="Raleway-Regular" CharacterSpacing="1" TextColor="WhiteSmoke" FontSize="19" Margin="-5,25,0,0"/>
+                    <BoxView WidthRequest="500" HorizontalOptions="Center" BackgroundColor="LightGray" HeightRequest="2" Margin="-1,-15,0,0">
+                        
+                    </BoxView>
+                </StackLayout>
+
+                <Button Text="Add Task" Clicked="AddTask_Clicked" TextColor="WhiteSmoke" 
+                            FontFamily="Raleway-Bold" FontSize="16" CharacterSpacing="1" CornerRadius="30" HeightRequest="55" 
+                        HorizontalOptions="Center" WidthRequest="200" Margin="0,100,0,0">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#fe00d4" Offset="0.1" />
+                            <GradientStop Color="#8c16d4" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+    
+</ContentPage>

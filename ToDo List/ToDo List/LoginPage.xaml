@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo_List.LoginPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="mobilebgwg.png">
+
+    <StackLayout x:Name="Main">
+        <StackLayout Margin="0,50,0,70">
+            <Image Source="todogradient2" WidthRequest="{OnPlatform iOS=150, Android=150}" Margin="0,0,0,-20"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" WidthRequest="300">
+            <Label Text="USERNAME" CharacterSpacing="1" FontSize="12" FontFamily="Raleway-Bold" TextColor="#006af9"/>
+            <Entry x:Name="EntryName" Placeholder="JohnWick" Margin="-13,-8,0,-10"/>
+            <BoxView WidthRequest="300" BackgroundColor="#006af9" HorizontalOptions="Start" HeightRequest="1" Margin="0,0,0,20"/>
+
+            <Label Text="PASSWORD" CharacterSpacing="1" FontSize="12" FontFamily="Raleway-Bold" TextColor="#006af9"/>
+            <Entry x:Name="EntryPassword" IsPassword="True" Margin="-13,-8,0,-10" Placeholder="********"/>
+            <BoxView WidthRequest="300" BackgroundColor="#006af9" HorizontalOptions="Start" HeightRequest="1" Margin="0,0,0,8"/>
+            <Label Text="Forgot Password?" CharacterSpacing="1" TextColor="#006af9" FontSize="12" FontFamily="Raleway-Bold" HorizontalOptions="End"/>
+        </StackLayout>
+
+        <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" WidthRequest="300" CharacterSpacing="1" HorizontalOptions="Center" Text="Login" TextColor="White"
+                FontFamily="Raleway-Bold" CornerRadius="25" Margin="0,20,0,15">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#1b02a3" Offset="0.1" />
+                    <GradientStop Color="#00c0f9" Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Label Text="OR CONNECT WITH:" HorizontalOptions="Center" FontSize="12" FontFamily="Raleway-Regular" Margin="0,0,0,15"/>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            
+            <Frame BackgroundColor="#3b5998" CornerRadius="28" HeightRequest="10" Padding="14" Margin="0,0,10,0">
+                <StackLayout x:Name="FBLogo" Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="facebook" WidthRequest="{OnPlatform iOS=25, Android=25}"/>
+                </StackLayout>
+            </Frame>
+            
+            <Frame BackgroundColor="#DB4437" CornerRadius="28" HeightRequest="25" Padding="14" Margin="10,0,0,0">
+                <StackLayout x:Name="GLogo" Orientation="Horizontal">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="google" WidthRequest="{OnPlatform iOS=25, Android=25}"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+
+    </StackLayout>
+    
+</ContentPage>
